@@ -1,10 +1,12 @@
 import React from 'react'
-import Card from './Components/Card'
+import Cards from './Components/Cards'
+import './App.css'
 
 export default function App() {
   return (
-    <div>
-      <Card/>
+    <div className='App'>
+      <Cards/>
+      
       
     </div>
   )
