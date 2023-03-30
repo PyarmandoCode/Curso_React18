@@ -8,12 +8,13 @@ import Sumas from "./Components/cast";
 import CicloVida from "./Components/ciclovida";
 import Forms from "./Components/formularios";
 import Forms2 from "./Components/formularios2";
+import Rutas from "./Components/menu";
 
 
 function App() {
   return (
     <div >
-      <Forms2/>
+      <Rutas/>
      
     </div>
   );
