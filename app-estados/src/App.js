@@ -5,12 +5,13 @@ import Propiedades4 from "./Components/propiedades4";
 import State1 from "./Components/state1";
 import Example from "./Components/hook1";
 import Sumas from "./Components/cast";
+import CicloVida from "./Components/ciclovida";
 
 
 function App() {
   return (
     <div >
-      <Sumas/>
+      <CicloVida/>
      
     </div>
   );
