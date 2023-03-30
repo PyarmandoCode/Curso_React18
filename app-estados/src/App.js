@@ -1,10 +1,11 @@
 import Propiedades from "./Components/propiedades";
+import Propiedades2 from "./Components/propiedades2";
 
 
 function App() {
   return (
     <div >
-      <Propiedades/>
+      <Propiedades2/>
      
     </div>
   );
