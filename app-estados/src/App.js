@@ -4,12 +4,13 @@ import Propiedades3 from "./Components/propiedades3";
 import Propiedades4 from "./Components/propiedades4";
 import State1 from "./Components/state1";
 import Example from "./Components/hook1";
+import Sumas from "./Components/cast";
 
 
 function App() {
   return (
     <div >
-      <Example/>
+      <Sumas/>
      
     </div>
   );
