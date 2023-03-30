@@ -6,12 +6,14 @@ import State1 from "./Components/state1";
 import Example from "./Components/hook1";
 import Sumas from "./Components/cast";
 import CicloVida from "./Components/ciclovida";
+import Forms from "./Components/formularios";
+import Forms2 from "./Components/formularios2";
 
 
 function App() {
   return (
     <div >
-      <CicloVida/>
+      <Forms2/>
      
     </div>
   );
