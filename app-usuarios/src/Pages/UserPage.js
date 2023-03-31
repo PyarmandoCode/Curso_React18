@@ -11,7 +11,7 @@ export const UserPage = () => {
     }, [])
 
     const getUsers = async () => {
-        const resp = await usersApi.get('http://127.0.0.1:8000/api/usuarios/http://127.0.0.1:8000/api/usuarios/');
+        const resp = await usersApi.get('https://reqres.in/api/users');
         setUsers(resp.data.data);
 
     }
